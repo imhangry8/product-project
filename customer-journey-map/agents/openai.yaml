@@ -1,0 +1,13 @@
+interface:
+  display_name: 用户旅程地图
+  short_description: 梳理用户旅程、触点和体验痛点，优先量化影响并提出优化建议
+  default_prompt: 使用 $customer-journey-map 梳理目标用户旅程，并优先量化痛点影响的用户范围及转化或留存影响。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
