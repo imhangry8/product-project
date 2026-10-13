@@ -1,0 +1,13 @@
+interface:
+  display_name: 竞品分析
+  short_description: 分析竞品定位与近期变化，跟踪AI行业动态并识别新兴威胁和策略机会
+  default_prompt: 使用 $competitor-analysis 分析目标赛道，核实近3–6个月动态，输出新兴威胁、策略建议及后续跟踪清单。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
