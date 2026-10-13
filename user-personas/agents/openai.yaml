@@ -1,0 +1,13 @@
+interface:
+  display_name: 用户画像
+  short_description: 从调研或公开资料构建分层用户画像，保留反常识洞察并确定核心目标人群
+  default_prompt: 使用 $user-personas 为目标产品构建3套用户画像，区分事实与假设，排序核心人群并给出验证计划。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
