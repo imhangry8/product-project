@@ -1,0 +1,13 @@
+interface:
+  display_name: 产品工作流主控Agent
+  short_description: 编排竞品、用户调研、画像、旅程、需求排序、PRD及数据验证，保留证据状态与迭代反馈
+  default_prompt: 使用 $product-intern-agent 根据我的目标与现有资料选择工作流，完成产品方案并明确证据、假设和验证交接。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
