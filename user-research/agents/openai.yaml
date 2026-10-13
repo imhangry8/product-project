@@ -1,0 +1,13 @@
+interface:
+  display_name: 用户调研
+  short_description: 选择访谈、问卷或行为分析获取用户证据，无真实用户时降级分析公开反馈并交接洞察卡片
+  default_prompt: 使用 $user-research 将用户未知问题转成研究计划，选择适合的方法，并把真实证据整理为带来源和置信度的洞察卡片。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
