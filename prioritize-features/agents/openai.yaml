@@ -1,0 +1,14 @@
+interface:
+  display_name: 功能优先级排序
+  short_description: 以RICE比较功能，计算调研机会分数并解释战略取舍、风险和版本优先级
+  default_prompt: 使用 $prioritize-features 按RICE评估需求，并在具备重要性和满意度调研数据时计算Opportunity
+    Score，输出Top5与取舍。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
