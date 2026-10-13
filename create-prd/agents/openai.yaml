@@ -1,0 +1,12 @@
+interface:
+  display_name: create prd
+  short_description: 使用完整10章节模板生成或评审产品需求文档PRD，包含背景、目标、用户、价值主张、交互流程与产品逻辑、策略设计、数据需求与埋点定义、上线规划，并向validate-metrics交接验证输入。适用于撰写PRD、输出功能规格、补充页面流/状态流转/异常态、设计推荐/Push/增长策略或定义上线前数据需求。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
